@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Sen:wght@400..800&display=swap');
+
+.footer{
+    background-color:  black; 
+    color: white;
+    height: 450px;
+    width: 100%;
+    position: absolute;
+    font-family: "Sen", sans-serif;
+
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec1 img{
+    width: 180px;
+}
+.sec1 ul{
+   display: flex;
+}
+.sec1 ul li{
+    list-style: none;
+    margin: 20px 35px;
+}
+.sec1 ul li a{
+    font-size: 14px;
+}
+.sec2{
+    position: relative;
+    background-color:  rgba(9,0,58,0.7);
+    height: 200px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 80%;
+    margin: 40px auto;
+    
+}
+.sec2-content{
+   display: flex;
+   padding-top: 40px;
+   text-align: center;
+   align-items: center;
+   margin-left: 50px;
+
+}
+.sec2-content h1{
+    font-family: "Sen", sans-serif;
+    line-height: 50px;
+}
+.sec2-content input{
+    padding: 10px 25px;
+    margin-left: 90px ;
+    background: none;
+    border: 0.5px solid white;
+    color: white;
+    outline: none;
+}
+
+.sec2-content button{
+    padding: 15px 20px;
+    width: 200px;
+    background-color: #F9C349;
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+.sec3{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec3 img{
+    width: 15px;
+}
+.sec3 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec3 ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.sec3_content{
+    display: block;
+}
+.sec3_content p{
+    color: white;
+}

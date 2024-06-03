@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.About_sec1{
+    width: 100%;
+    overflow: hidden;
+    height: 725px;
+    background: url(../../assets/images/RID_0209.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.About_sec1 img{
+    background-position: center;
+    background-size: cover;
+}
+.About_sec1 h1{
+    position: absolute;
+    transform: translate(40px, 300px);
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.head1{
+    height: 100px;
+    width: 100%;
+    background-color: #F9C349;
+    color: black;
+}
+.text{
+    width: 85%;
+    margin: auto;
+}
+.text1{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+    width: 1240px;
+    /* border: 1px solid white; */
+    
+}
+.text1 h1{
+    color: white;
+}
+.text1-img{
+    height: 350px;
+    width: 70%;
+    background: url(../../assets/images/RID_6114.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 55px;
+    /* margin-right: 115px; */
+}
+.abtpic{
+    height: 350px;
+    width: 580px;
+    background: url(../../assets/images/RID_9028.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.About_sec2{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/images/RID_6065.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.main{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.About_sec2 p{
+    color: white;
+    font-size: 17px;
+  font-family: "Lato", sans-serif;
+  column-count: 2;
+  column-gap: 20px;
+  padding: 20px;
+  line-height: 40px;
+  /* border: 1px solid white; */
+}
+.main-text{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    line-height: 45px;
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+    padding-top: 20px;
+    
+}
+.About_sec3{
+    height: 100px;
+    width: 100%;
+    background-color: #F9C349;
+    color: black;
+}
+.About_sec3 h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 700;
+    font-family: "Sen", sans-serif;
+}
+.About_sec4{
+    height: 350px;
+    background-color: white;
+    
+}
+.About_sec4 h3{
+    color: black;
+}
+/* src/PhilosophyAndVision.css */
+.vision{
+    width: 85%;
+    margin: 20px auto;
+    display: block;
+}
+.vision h1{
+    color: white;
+   font-size: 35px;
+   line-height: 30px;
+   font-family: "Lato", sans-serif;
+   text-align: center;
+}
+.vision p{
+    line-height: 40px;
+   font-family: "Lato", sans-serif;
+
+}
+
+
+  /* Media Queries */
+
+@media (min-width: 600px) {
+    /* .About_sec1{
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        background: url(../../assets/images/RID_0209.jpg);
+        background-position: center;
+        background-size: cover;
+    } */
+    .main{
+        font-size: 5px;
+        color: black;
+    }
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+.Achievements{
+  background-color: white;
+  color: black;
+  height: 100%;
+  
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+.title h2{
+  color: black;
+}
+.title img{
+    width: 40px;
+}
+.contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, 1fr);
+    gap: 40px;
+    margin-left: 50px;
+  }
+  
+  .item {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9C349; 
+    color: #002147; 
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 10px 10px 3px rgba(0,0,0,0.6);
+  }
+.item img{
+    width: 200px;
+    margin: auto;
+}
+.item h3{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+  .item:nth-child(1) {
+    display: block;
+    /* background-color: rgba(9,0,58,0.7); */
+    /* border: 2px solid black; */
+    grid-row: 1;
+    grid-column: 1 / 4;
+  }
+  
+  .item:nth-child(1) img{
+    padding-top: 80px;
+    width: 300px;
+    height: 200px;
+  }
+  .item:nth-child(1) h3{
+    margin-top: 20px;
+  }
+  .item:nth-child(2) {
+    display: block;
+    grid-row: 1;
+    grid-column: 4 / 4;
+    /* background: url('../../assets/images/T&A.gif'); */
+  }
+  
+  .item:nth-child(3) {
+    display: block;
+    grid-row: 2;
+    grid-column: 1 / 4;
+
+    /* background: url('../../assets/images/711.jpg'); */
+  }
+  
+  .item:nth-child(4) {
+    display: block;
+    grid-row: 2;
+    grid-column: 4 / 4;
+  }
+  
+  .item:nth-child(5) {
+    display: block;
+    grid-row: 3;
+    grid-column: 1 / 4;
+  }
+  
+  .item:nth-child(6) {
+    display: block;
+    height: 100%;
+
+    grid-row: 3;
+    grid-column: 4 / 4;
+  }
+  
+  .item:nth-child(7) {
+    display: block;
+    grid-row: 4;
+    grid-column: 1 / 4;
+
+  }
+  .item:nth-child(4){
+    padding: 65px 70px;
+    gap: 20px 0 ;
+  }
+  .item:nth-child(8) {
+    background-color: #F9C349;
+    display: block;
+    grid-row: 4;
+    grid-column: 4 / 4;
+  }

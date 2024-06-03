@@ -1,0 +1,111 @@
+
+
+.Bg{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../../assets/images/RID_9422.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Bg h1{
+    position: absolute;
+    transform: translate(40px, 430px);
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.speak_text{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.img{
+    height: 450px;
+    width: 50%;
+    background: url(../../assets//images/RID_9385.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.speak_text p{
+    width: 45%;
+    height: 400px;
+    color: white;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    margin-top: 40px;
+    
+}
+.img span{
+    padding-top: 50px;
+}
+.contact{
+    height: inherit;
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.work-sec{
+    height: 500px;
+  
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Bg2{
+    height: 350px;
+    width: 50%;
+    /* min-height:
+     100vh;
+    width: 100%; */
+    background: url(../../assets/images/RID_7635.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Bg2-text{
+
+    color: white;
+    width: 40%;
+    height: 350px;
+}
+.Bg2 h1{
+    padding-top: 240px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+}
+.Bg2-text p{
+    color: white;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    margin-top: 40px;
+
+}
+.event{
+    height: 500px;
+    width: 100%;
+}
+.event-text h2{
+    color: black;
+}

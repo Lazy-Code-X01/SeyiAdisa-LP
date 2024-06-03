@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+/* .container2 {
+  background: url('./assets/images/RID_0407.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
