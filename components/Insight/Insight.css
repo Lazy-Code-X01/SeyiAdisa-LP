@@ -1,0 +1,50 @@
+/* InsightsResources.css */
+
+.insights-resources {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.introduction, .content-section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #002147; /* Navy Blue */
+    text-align: center;
+}
+
+h3 {
+    color: #004080; /* Darker Navy Blue */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333333; /* Dark Gray */
+    line-height: 1.6;
+}
+
+.content-item {
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-item h4 {
+    color: #002147; /* Navy Blue */
+    margin-bottom: 10px;
+}
+
+.content-item a {
+    color: #004080; /* Darker Navy Blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-item a:hover {
+    text-decoration: underline;
+}

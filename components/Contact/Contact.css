@@ -1,0 +1,69 @@
+ .paper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paragraph {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+
+.head-text{
+    height: 150px;
+    margin: 80px;
+    display: block;
+    font-family: "Lato", sans-serif;
+}
+.head-text h4{
+    text-align: center;
+    font-weight: 400;
+    line-height: 40px;
+}
+.head-text h1{
+    text-align: center;
+    font-weight: 700;
+}
+.head-text p{
+  text-align: center;
+  line-height: 30px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    border: 1px solid black;
+}
+.contact{
+    position: relative;
+    top: 0;
+    background-color: #121756;
+    width: 30%;
+   display: block;
+   height: 60%;
+}
+.form{
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.media-circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+
+}
+.media-circle img{
+    width: 25px;
+    margin: 12px;
+    
+}
+.form-section{
+    display: block;
+}
